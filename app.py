@@ -32,7 +32,7 @@ def shipping_fee(subtotal):
     # TODO 2: Follow Step 4. Replace pass with your decision and return.
     if subtotal >= 40:
         return 0.00
-    return 5.00
+    return 5.99
 
 
 st.title("Bright Bakery Interactive Order Calculator")
