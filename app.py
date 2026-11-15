@@ -56,7 +56,7 @@ unit_price = menu[product]
 subtotal = unit_price * quantity
 discounted_subtotal = apply_discount(subtotal)
 discount_amount = subtotal - discounted_subtotal
-if fulfilment == "Delivery":
+if fulfillment == "Delivery":
     delivery_fee = shipping_fee(subtotal)
 else:
     delivery_fee =0.00
