@@ -30,7 +30,7 @@ def apply_discount(subtotal):
 def shipping_fee(subtotal):
     """Return the Delivery fee, using the ORIGINAL item subtotal."""
     # TODO 2: Follow Step 4. Replace pass with your decision and return.
-    if subtotal >= 30:
+    if subtotal >= 35:
         return 0.00
     return 5.99
 
